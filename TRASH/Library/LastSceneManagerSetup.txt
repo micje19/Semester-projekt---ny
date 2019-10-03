@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/ScrollMenu.unity
+- path: Assets/TRASH-The game.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
