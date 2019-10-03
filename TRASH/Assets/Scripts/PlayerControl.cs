@@ -55,17 +55,17 @@ public class PlayerControl : MonoBehaviour {
         if(collision.gameObject.tag.Equals("Stone") == true)
         {
             Debug.Log("You died!");
-            SceneManager.LoadScene("SampleScene");
+            SceneManager.LoadScene("TRASH-The game");
         }
         if(collision.gameObject.tag.Equals("Tsunami") == true)
         {
-            Debug.Log("You were to slow");
-            SceneManager.LoadScene("SampleScene");
+            Debug.Log("You were too slow");
+            SceneManager.LoadScene("TRASH-The game");
         }
         if(collision.gameObject.tag.Equals("Wall") == true)
         {
             Debug.Log("You hit the border");
-            SceneManager.LoadScene("SampleScene");
+            SceneManager.LoadScene("TRASH-The game");
             //dum
         }
     }
